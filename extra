@@ -1,0 +1,38 @@
+https://code.visualstudio.com/download
+https://nodejs.org/en/
+https://github.com/
+
+React
+> React is a frontend library/framework of javascript
+which help to build single page application
+using component
+
+NPM
+> Node package Manager
+
+JSON
+> Way to reperesnt data
+JavaScript Object Notation
+
+[
+    {
+        name:'John',
+        class:'UI'
+    },
+    {
+        name:'Amit',
+        class:'Node'
+    }
+]
+
+>>>>>>>>>>>><<<<<<<<<<<<<<<<
+package.json
+> entry point to application
+> meta data (description,version, author)
+> packages
+> scripts (start,build,test)
+
+
+> How to generate package.json
+> install packages
+> generate react app
