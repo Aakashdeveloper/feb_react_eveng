@@ -36,3 +36,55 @@ package.json
 > How to generate package.json
 > install packages
 > generate react app
+
+..............................
+>>>>Step to generate package.json<<<
+**NodeJs must be installed in system
+> navigate to the folder using terminal/cmd
+> type npm init 
+> answer all questions
+> type yes
+
+//////
+step to install package
+///////
+> go inside the folder
+> npm i packagename / npm install packages
+
+
+packages.json> starting point of app
+.gitignore > help stop pushing thing to github
+src> contains all dynamic items
+public > all static (css,html)
+node_modules > all packages
+
+////////////
+Step to generate react app
+//////
+#window
+
+>>One Time<<<
+> open cmd as admin 
+> npm i -g create-react-app
+
+>>Every Time you want new app<<
+> open cmd
+> Go inside the folder where you want to generate app
+> create-react-app appname
+
+#mac
+
+>>One Time<<<
+> open terminal
+> sudo npm i -g create-react-app
+
+>>Every Time you want new app<<
+> open cmd
+> Go inside the folder where you want to generate app
+> create-react-app appname
+
+>>>>step to run app<<<<<
+** all through cmd
+> go inside app folder
+> npm start
+> localhost:3000
