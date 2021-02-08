@@ -88,3 +88,17 @@ Step to generate react app
 > go inside app folder
 > npm start
 > localhost:3000
+
+////Component/////
+Class Component
+> logical Component
+> We can mange State
+> We use for api call,logic and display
+
+functional Component
+> Dumb Component
+> We cannot manage state
+> we use for display
+
+
+Hooks Component
