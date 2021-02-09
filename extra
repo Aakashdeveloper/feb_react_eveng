@@ -102,3 +102,14 @@ functional Component
 
 
 Hooks Component
+
+State 
+> state act like a local variable
+> only class component can maintain state
+> value of state can be updated
+> any data interaction will happen through state only
+
+Props
+> props is the way to pass the data
+> value of props cannot be updated 
+> can be pass through props only if component is nested
