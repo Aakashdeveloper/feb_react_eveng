@@ -1,4 +1,5 @@
-import React,{Component} from 'react';
+import React,{Component, Fragment} from 'react';
+import './Header.css';
 
 class Header extends Component{
     constructor(){
@@ -10,27 +11,26 @@ class Header extends Component{
         }
     }
 
+    handleChange=(event)=>{
+        console.log(event.target.value)
+        this.setState({keyword:event.target.value?event.target.value:'User Input'})
+    }
+
     render(){
+        console.log("in render")
         return(
-            <div>
-                <center>
-                    <h1>{this.state.title}</h1>
-                </center>
+            <Fragment>
+                <header>
+                    <div className="logo">{this.state.title}</div>
+                    <center>
+                        <input onChange={this.handleChange}/>
+                        <div style={{color:'white'}}>{this.state.keyword}</div>
+                    </center>
+                </header>
                 <hr/>
-            </div>
+            </Fragment>
         )
     } 
 }
-/*
-const Header = () => {
-    return(
-        <div>
-            <center>
-                <h1>My React App</h1>
-            </center>
-            <hr/>
-        </div>
-    )
-}*/
 
 export default Header;

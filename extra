@@ -113,3 +113,9 @@ Props
 > props is the way to pass the data
 > value of props cannot be updated 
 > can be pass through props only if component is nested
+
+
+///JavaScript///
+map
+filter
+indexof
