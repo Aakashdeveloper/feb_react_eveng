@@ -119,3 +119,42 @@ Props
 map
 filter
 indexof
+
+var a= [2,3,6,8,9,1,4,7]
+
+a.map((data)=>{return data*2})
+(8) [4, 6, 12, 16, 18, 2, 8, 14]
+
+var a= [2,3,6,8,9,1,4,7]
+a.map((data)=>{return `<h1>${data*2}</h1>`})
+(8) ["<h1>4</h1>", "<h1>6</h1>", "<h1>12</h1>", "<h1>16</h1>", "<h1>18</h1>", "<h1>2</h1>", "<h1>8</h1>", "<h1>14</h1>"]
+
+
+var a= [2,3,6,8,9,1,4,7]
+undefined
+a.filter((data)=>{return data>2})
+(6) [3, 6, 8, 9, 4, 7]
+var a= [2,3,6,8,9,1,4,7]
+undefined
+a.indexOf(2)
+0
+a.indexOf(9)
+4
+a.indexOf(10)
+-1
+a.indexOf(7)
+7
+a.indexOf(1)
+5
+a.indexOf("hi")
+-1
+
+parent=> child (use props)
+child=> parent (use props with function)
+
+functional add(a,b){
+    return a+b
+}
+
+add(1,2)
+
