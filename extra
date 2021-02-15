@@ -158,3 +158,10 @@ functional add(a,b){
 
 add(1,2)
 
+
+/////
+npm i react-router-dom
+
+history > redirect
+location > for query params
+match > for params
