@@ -1,0 +1,22 @@
+{
+  "booking": [
+    {
+      "id": 68649,
+      "hotel_name": "The Park Baga River Goa",
+      "name": "Kevin",
+      "phone": "878676"
+    },
+    {
+      "id": 14358,
+      "hotel_name": "Hometel Chandigarh",
+      "name": "Aakash",
+      "phone": "7897987"
+    },
+    {
+      "id": 94385,
+      "hotel_name": "Amanora The Fern Hotels",
+      "name": "Sarah",
+      "phone": "798798789"
+    }
+  ]
+}

@@ -8,6 +8,7 @@ Mock API
 json-server
 
 React-JWT(Login Logout)-1
+
 React(Github)-1
 
 Depolyment
@@ -17,6 +18,7 @@ Depolyment
 -> Nginx
 React-GarphQL-1
 React_hooks -1
+
 Basic React Native=1
 React-Saga -1
 React-with-typescript-1
@@ -214,3 +216,9 @@ queryParams (what you pass after ?) (optional)
 (post)placebooking >  https://developerfunnel.herokuapp.com/placeBook
 
 npm i react-router-dom react-tabs axios
+
+///dummy api
+> install global package
+> npm i -g json-server
+
+> json-server --watch db.json --port 8700
