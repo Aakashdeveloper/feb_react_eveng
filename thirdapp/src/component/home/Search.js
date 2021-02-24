@@ -1,14 +1,14 @@
 import React,{Component} from 'react';
 import './Search.css';
+import {withRouter} from 'react-router-dom';
 
 const cityUrl = "https://developerfunnel.herokuapp.com/location"
 const hotelUrl = "https://developerfunnel.herokuapp.com/hotels?city="
 
 
-
 class Search extends Component{
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
         console.log("inside>>>constructor")
         this.state={
             location:'',
@@ -48,6 +48,9 @@ class Search extends Component{
             this.setState({hotels:data})
         })
     }
+    handleHotel =(event) => {
+        this.props.history.push(`/details/${event.target.value}`)
+    }
     render(){
         console.log("inside>>>render")
         return(
@@ -63,7 +66,7 @@ class Search extends Component{
                         <option>---SELECT CITY---</option>
                         {this.renderCity(this.state.location)}
                     </select>
-                    <select className="reataurantsinput">
+                    <select className="reataurantsinput" onChange={this.handleHotel}>
                         <option>---SELECT HOTEL---</option>
                         {this.renderHotel(this.state.hotels)}
                     </select>
@@ -83,4 +86,4 @@ class Search extends Component{
     }
 }
 
-export default Search;
+export default withRouter(Search);
