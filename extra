@@ -7,24 +7,22 @@ React = 3
 Mock API
 json-server
 React-JWT(Login Logout)-1
-/////////////////////////
 React(Github)-1
 Depolyment
 -> MERN
 -> Docker
 -> heroku
 -> Nginx
-
-React-GarphQL-1
 React_hooks -1
-
+Github
+/////////////////////////
+React-GarphQL-1
 Basic React Native=1
+
+React-Redux =2
+Testing
 React-Saga -1
 React-with-typescript-1
-React-Redux =2
-Github
-Testing
-
 --------NOT--------------
 API
 GarphQL
@@ -245,3 +243,26 @@ npm i
 npm start
 
 https://docs.github.com/en/developers/apps/authorizing-oauth-apps
+
+https://www.youtube.com/c/DeveloperFunnel/videos
+
+// firsttime new folder
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/febNode.git
+git push -u origin master
+
+// next all Time
+git add .
+git commit -m "A"
+git push
+
+git pull
+
+git clone repourl
+
+
+////////////////////
+npm i -g create-react-native-app
+create-react-native-app appname
