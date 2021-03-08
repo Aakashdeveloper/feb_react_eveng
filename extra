@@ -271,4 +271,9 @@ download app Expo in mobile
 
 npm i apollo-boost apollo-graphql graphql graphql-tag react-apollo
 
-npm i redux redux-logger react-redux
+//dev
+npm i redux redux-logger react-redux react-slick redux-promise
+
+
+//test
+npm i enzyme enzyme-adapter-react-16 react-addons-test-utils react-test-renderer
